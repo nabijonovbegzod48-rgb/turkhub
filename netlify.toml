@@ -1,7 +1,5 @@
-@"
 [build]
   command = "npm run build"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-"@ | Out-File -Encoding utf8 netlify.toml
